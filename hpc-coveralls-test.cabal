@@ -31,3 +31,12 @@ test-suite test-hpc-coveralls-test
   main-is:           test.hs
   ghc-options:       -O2 -Wall
   default-language:  Haskell2010
+
+test-suite test-hpc-coveralls-test2
+  type:              exitcode-stdio-1.0
+  build-depends:     base            >= 4.6 && < 4.8
+                   , hpc-coveralls-test
+  hs-source-dirs:    test
+  main-is:           test2.hs
+  ghc-options:       -O2 -Wall
+  default-language:  Haskell2010
