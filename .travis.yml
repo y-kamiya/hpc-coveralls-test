@@ -44,5 +44,3 @@ script:
 
  - cd ..
  - hpc-coveralls --exclude-dir=test test-prefork test-prefork-server
-
-
